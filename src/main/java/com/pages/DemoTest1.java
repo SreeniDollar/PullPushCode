@@ -14,7 +14,7 @@ public class DemoTest1 {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://www.amazon.in");
+		driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php?loggedout=true");
 	}
 
 }
